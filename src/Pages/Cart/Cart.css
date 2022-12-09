@@ -1,0 +1,11 @@
+.hero-img:after{
+    content: '';
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 12px;
+     background: linear-gradient(to right, #151515 0%, rgba(21,21,21,0) 100%);
+}
