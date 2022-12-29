@@ -11,7 +11,7 @@ const Services = () => {
         fetch(`http://localhost:5000/services?search=${search}&order=${isAsc ? 'asc' : 'desc'}`)
             .then(res => res.json())
             .then(data => setServices(data))
-    }, [isAsc, search])
+    }, [isAsc, search]);
 
     const handleSearch = () => {
         setSearch(searchRef.current.value);
